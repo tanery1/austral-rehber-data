@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "version": "2026.11-1",
+  "updatedAt": "2026-11-14",
+  "notice": "Fiyatlar Kasım 2026 yetkili servis tekliflerine göre güncellendi. Kesin tutar için servisinizden yazılı teklif alın.",
+
+  "parts": [
+    { "id": "part_oil", "minPriceTry": 3100, "maxPriceTry": 3900 },
+    { "id": "part_oil_filter", "minPriceTry": 560, "maxPriceTry": 820 },
+    { "id": "part_front_pads", "minPriceTry": 4500, "maxPriceTry": 6200, "priceNote": "İşçilik hariç • KDV dahil" },
+    {
+      "id": "acc_cargo_net",
+      "name": "Bagaj Filesi (Dikey)",
+      "oemCode": "Servise sorun",
+      "category": "ACCESSORY",
+      "minPriceTry": 900,
+      "maxPriceTry": 1400,
+      "priceNote": "Örnek yeni kalem",
+      "compatibilityNote": "Austral 2025–2026",
+      "description": "Bagajdaki küçük eşyaların kaymasını önleyen elastik file."
+    }
+  ],
+
+  "colors": [
+    { "id": "atlas_mavi", "trPriceDelta": "+17.500 ₺ (Metalik)" }
+  ],
+
+  "maintenance": [
+    { "id": "maint_1", "estimatedCostRange": "≈ 12.000 ₺ – 16.000 ₺" },
+    { "id": "maint_2", "estimatedCostRange": "≈ 19.500 ₺ – 26.500 ₺" }
+  ],
+
+  "warranty": [
+    { "id": "w_roadside", "kmLimit": "Türkiye geneli • Hat: 444 62 47" }
+  ],
+
+  "removedIds": []
+}
